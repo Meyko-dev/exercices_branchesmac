@@ -6,5 +6,6 @@ function totalPrice(articles){
     }
     return total;
     }
-    console.log(totalPrice([4, 7, 12]))
-//aaaaa
+    console.log(totalPrice([10, 4, 8]))
+
+    //
