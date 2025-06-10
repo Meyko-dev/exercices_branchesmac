@@ -7,3 +7,4 @@ function totalPrice(articles){
     return total;
     }
     console.log(totalPrice([4, 7, 12]))
+//aaaaa
