@@ -3,7 +3,7 @@
 //Modifie le code existant et demande à l’utilisateur via une fonction existante (que tu dois rechercher), le nombre qui sera en entrée de la première fonction. Objectif : L’utilisateur rentre un nombre, disons 4. Dans la console, je dois voir successivement 16 et 160.
 
 
-let number = 6
+/*let number = 6
 function numbersquare(number){
     return (number ** 2);
 //donne le carré du paramètre "number"
@@ -33,3 +33,15 @@ function multiplicationBy10(result){
     return (result * 10);
 }
 console.log(multiplicationBy10(result))
+*/
+
+let fromName = "Marc";
+let toName = "Linda";
+let message = "Je te rends visite la semaine prochaine";
+function sendMessage(message, fromName, toName){
+    
+} console.log("From : " + fromName + " to : " + toName + " Message : " + message);
+
+sendMessage("Je te rends visite la semaine prochaine", "Marc", "Linda");
+sendMessage("Super on se voit mardi !", "Linda", "Marc");
+

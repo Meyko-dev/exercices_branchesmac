@@ -4,7 +4,7 @@
 // 3)Appelez addition3NumbersWithArg() 3 fois avec des valeurs d’argument différentes. Objectif : Voir dans la console : “Le résultat de la somme est X ” “Le résultat de la somme est Y” “Le résultat de la somme est Z”
 
 
-function addition3Numbers(){
+/*function addition3Numbers(){
     const a = 1 ;
     const b = 2 ;
     const c = 3 ;
@@ -19,4 +19,15 @@ console.log("le resultat de la somme est", sum)
 }
 addition3NumbersWithArg(10, 15, 20);
 addition3NumbersWithArg(20, 30, 40);
-addition3NumbersWithArg(1, 2, 3);
+addition3NumbersWithArg(1, 2, 3);*/
+
+sendMessage(message, fromName, toName)
+    console.log("From : " + fromName + " to : " + toName + " Message : " + message);
+
+sendMessage("Je te rends visite la semaine prochaine", "Marc", "Linda");
+sendMessage("Super on se voit mardi !", "Linda", "Marc");
+
+let contactName = "Jean";
+let myName = "Ada";
+let myMessage = "Je t'apprends à coder tes premières fonctions";
+sendMessage(myMessage, myName, contactName);
