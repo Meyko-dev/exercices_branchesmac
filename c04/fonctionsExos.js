@@ -31,3 +31,5 @@ let contactName = "Jean";
 let myName = "Ada";
 let myMessage = "Je t'apprends à coder tes premières fonctions";
 sendMessage(myMessage, myName, contactName);
+
+//ceci est test pour pousser 
