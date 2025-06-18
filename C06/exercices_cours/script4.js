@@ -1,16 +1,17 @@
-const pageTitle = document.querySelector('h1')
-console.log(pageTitle)
-
-const subscribeButton = document.querySelector('#newsletter')
-let userHasClicked = false
-
-subscribeButton.addEventListener('click',() => {
-if(userHasClicked)
-{
-    userHasClicked = false // valeur par défault car la page vient de chargé est l'utilisateur n'a pas cliqué 
-    subscribeButton.innerText = "subscribe"
-} else {
-    userHasClicked = true // lorsque l'utilisateur à cliqué 
-    subscribeButton.innerText = "unsubscribe"
+//exemple 1 changement du titre de la page: 
+const pageTitle = document.querySelector('h1');
+if (pageTitle) {
+    pageTitle.innerText = "Nouvelles recettes !";
 }
+
+const subscribeButton = document.querySelector('#newsletter');
+let userHasClicked = false;
+subscribeButton.addEventListener('click', () => {
+    if (userHasClicked) {
+        userHasClicked = false;
+        subscribeButton.innerText = "Subscribe";
+    } else {
+        userHasClicked = true;
+        subscribeButton.innerText = "Unsubscribe";
+    }
 });
