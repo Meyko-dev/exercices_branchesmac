@@ -20,7 +20,7 @@ const horoscope = [
 // TODO: recupère l'élément <div id="horoscope">
 const container = document.querySelector('#horoscope') // création d'une variable en lien avec le contenu HTML
 
-for (const item of horoscope) { // = (i=0 ; i < length ; i++)
+for (const item of horoscope) { // = (i=0 ; i < length ; i++), item = indice [i]
    container.innerHTML += `<article><h1>${item.sign}</h1> <p>${item.description}</p> </article>`;
 } 
 	
