@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Liste des Candidates</title>
+</head>
+<body>
+    <h1>Liste des Candidates</h1>
+    <ul id="candidatesList"></ul>
+
+    <script src="parcourirTblx.js"></script>
+    <script>
+        const candidatesList = document.getElementById('candidatesList');
+        candidates.forEach((candidate) => {
+            const li = document.createElement('li');
+            li.textContent = candidate;
+            candidatesList.appendChild(li);
+        });
+    </script>
+</body>
+</html>
