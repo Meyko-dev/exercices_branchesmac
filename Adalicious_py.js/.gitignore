@@ -1,0 +1,27 @@
+node_modules/
+.env
+.DS_Store
+npm-debug.log*
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+# OS
+Thumbs.db
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+# Build
+dist/
+build/
+coverage/
+# Dependency directories
+jspm_packages/
+# Test output
+test-output/
+# Misc
+*.local
+*.cache

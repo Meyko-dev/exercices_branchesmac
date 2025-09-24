@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!---<script defer src="/back-end/menu.py"></script>-->
+        <link rel="stylesheet" href="style.css">
+
+    <title>Adalicious</title>
+</head>
+<body>
+    <!-- partie haute Adalicious -->
+<section>
+    <h1>Bienvenue {{ customer }} 🥦</h1>
+</section>
+
+<!--Menu -->
+<div id="menu">
+    <div id="items">
+    {% for plat in menu %}
+    <div class="menu-item">
+        <h2>{{ plat.plate }}</h2>
+        <p>{{ plat.description }}</p>
+        <p>{{ plat.image }}</p>
+    </div>
+    {% endfor %}
+</div>
+
+</body>
+</html>

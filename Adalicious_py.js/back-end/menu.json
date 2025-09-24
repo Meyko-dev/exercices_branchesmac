@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "plate": "Hello World Burger",
+    "description": "Un cheeseburger classique (pain, steak, fromage, salade, sauce).",
+    "image": "🍔"
+  },
+  {
+    "id": 2,
+    "plate": "404 Not Found Fries",
+    "description": "Des frites maison avec une sauce mystère (choisie aléatoirement par le backend !).",
+    "image": "🍟"
+  },
+  {
+    "id": 3,
+    "plate": "JSON Nuggets",
+    "description": "Nuggets de poulet avec 3 sauces au choix (ketchup, mayo, barbecue).",
+    "image": "🍗"
+  },
+  {
+    "id": 4,
+    "plate": "Git Pull Tacos",
+    "description": "Un taco simple avec poulet, salade, fromage et sauce.",
+    "image": "🌮"
+  },
+  {
+    "id": 5,
+    "plate": "Front-end Salad",
+    "description": "Une salade légère avec tomates, feta et vinaigrette maison.",
+    "image": "🥗"
+  },
+  {
+    "id": 6,
+    "plate": "Back-End Brownie",
+    "description": "Un brownie moelleux au chocolat.",
+    "image": "🍫"
+  },
+  {
+    "id": 7,
+    "plate": "Full Stack Menu",
+    "description": "Un combo burger, frites et boisson.",
+    "image": "🥗"
+  }
+]
