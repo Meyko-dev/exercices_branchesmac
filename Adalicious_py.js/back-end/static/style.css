@@ -1,0 +1,7 @@
+#header1 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/static/pictures/507060.jpg');
+    background-size: cover;
+}

@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!---<script defer src="/back-end/menu.py"></script>-->
-        <link rel="stylesheet" href="style.css">
+<!-- <link rel="stylesheet" href="style.css"> -->
 
     <title>Adalicious</title>
 </head>
 <body>
     <!-- partie haute Adalicious -->
 <section>
+    <div id="header">
     <h1>Bienvenue {{ customer }} 🥦</h1>
+    </div>
 </section>
 
 <!--Menu -->
@@ -22,6 +24,7 @@
         <h2>{{ plat.plate }}</h2>
         <p>{{ plat.description }}</p>
         <p>{{ plat.image }}</p>
+        <button>Commander</button>
     </div>
     {% endfor %}
 </div>
